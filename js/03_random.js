@@ -58,7 +58,8 @@ TO DO:
 */
 
 var shape= document.querySelector (".shape");
-shape.style.width = randomNumber(150, 700); 
+var width = randomNumber(150, 700); 
+var height = randomNumber(250,10000)
 shape.style.width = "300px" +"px"
 shape.style.height= "150px" 
 
