@@ -19,16 +19,15 @@ body {
   height: 600px;
   width: 600px;
   margin: 20px;
-  background: #efefef;
   font-size: 0;
+  background: hsl(140, 70%, 10%);
 }
 
 .shape {
-  width: 200px;
-  height: 200px;
+  width: 0;
+  height: 0;
   display: inline-block;  
-  border-left: 80px solid hsl(140, 70%, 35%);
-  border-top: 80px solid hsl(140, 70%, 20%);
-  background: hsl(140, 70%, 10%);
+  border-left: 200px solid hsl(140, 70%, 35%);
+  border-top: 200px solid transparent;
 }
 
