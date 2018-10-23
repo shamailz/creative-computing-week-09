@@ -68,5 +68,5 @@ shape.style.height= height + "px";
 var h = randomNumber(0, 179);
 
 shape.style.background = hslColor (h, 90, 50);
-shape.style.borderColor = hslColor (h, 10, 90);
+shape.style.borderColor = hslColor (h, 100, 90);
 
