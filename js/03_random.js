@@ -62,8 +62,8 @@ var shape = document.querySelector(".shape");
 var width = randomNumber(150, 700); 
 var height = randomNumber(250,1000);
 
-shape.style.width = "300px" +"px";
-shape.style.height= "150px" + "px";
+shape.style.width = width + "px";
+shape.style.height= height + "px";
 
 
 
