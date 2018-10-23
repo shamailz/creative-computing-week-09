@@ -57,6 +57,9 @@ TO DO:
 
 */
 
+var shape= document.querySelector (".shape")
+shape.style.width = "500px"
+shape.style.height = "50px"
 
 
 
